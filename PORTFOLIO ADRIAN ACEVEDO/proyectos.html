@@ -10,14 +10,11 @@
         #contenedor{
             
             display: flex;
+            justify-content: center;
+            align-items: center;
             gap: 50px;
             padding-top: 15%;
-
-        }
-        .mosaico {
-            padding-left: 8 %;
-            flex-direction: row;
-            justify-content: space-between; /* Espacio entre las imágenes */
+            padding-left: 10%;
         }
 
         .mosaico img {
@@ -25,6 +22,10 @@
             object-fit: cover; /* Ajusta la imagen al tamaño del div */
         }
         .proyecto{
+            text-align: center;
+        }
+        .mosaico h2{
+            padding-top: 5%;
             text-align: center;
         }
     </style>
@@ -48,16 +49,16 @@
             <h2>SELECCION DE PROYECTOS PERSONALES</h2>
             <div id="contenedor">
                 <div class="proyecto">
-                    <img src="IMAGENES/sapiencia.png" width="300px" height="150px">
+                    <img src="IMAGENES/sapiencia.png" width="450px" height="250px">
                     <p>Instituto Sapienza</p>
                 </div>
         
                 <div class="proyecto">
-                    <img src="IMAGENES/tartaALaCarta.png" width="300px" height="150px">
+                    <img src="IMAGENES/tartaALaCarta.png" width="450px" height="250px">
                     <p>Tarta a la Carta</p>
                 </div>
                 <div class="proyecto">
-                    <img src="IMAGENES/nStock.png" width="300px" height="150px">
+                    <img src="IMAGENES/nStock.png" width="450px" height="250px">
                     <p>nStock - Tienda de Ropa online</p>
                 </div>
             </div>
