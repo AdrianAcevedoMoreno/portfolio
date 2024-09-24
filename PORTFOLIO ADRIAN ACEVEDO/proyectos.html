@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="css/index.css">
+
+    <style>
+        #contenedor{
+            
+            display: flex;
+            gap: 50px;
+            padding-top: 15%;
+
+        }
+        .mosaico {
+            padding-left: 8 %;
+            flex-direction: row;
+            justify-content: space-between; /* Espacio entre las imágenes */
+        }
+
+        .mosaico img {
+
+            object-fit: cover; /* Ajusta la imagen al tamaño del div */
+        }
+        .proyecto{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="central">
+        <div id="menu">
+            <div id="global">
+                <img src="IMAGENES/logo.png" width="180px" height="170px">
+                <ul>
+                    <li><h3><a href="index.html">Sobre mi</a></h3></li>
+                    <li><h3><a href="proyectos.html">Proyectos</a></h3></li>
+                    <li><h3><a href="formacion.html">Formacion</a></h3></li>
+                </ul>
+            </div>
+        </div>
+
+        
+        
+        <div class="mosaico">
+            <h2>SELECCION DE PROYECTOS PERSONALES</h2>
+            <div id="contenedor">
+                <div class="proyecto">
+                    <img src="IMAGENES/sapiencia.png" width="300px" height="150px">
+                    <p>Instituto Sapienza</p>
+                </div>
+        
+                <div class="proyecto">
+                    <img src="IMAGENES/tartaALaCarta.png" width="300px" height="150px">
+                    <p>Tarta a la Carta</p>
+                </div>
+                <div class="proyecto">
+                    <img src="IMAGENES/nStock.png" width="300px" height="150px">
+                    <p>nStock - Tienda de Ropa online</p>
+                </div>
+            </div>
+        </div>
+    
+
+</body>
+</html>
